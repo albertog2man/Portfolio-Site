@@ -1,3 +1,3 @@
-source "https://rubygems.org"
+source "https://www.rubygems.org"
 ruby "2.2.3"
 gem "sinatra"
