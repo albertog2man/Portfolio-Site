@@ -40,8 +40,8 @@ div.grey_div img{
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 	position: relative;
-	margin-top: -11em;
-	width: 550px;
+	margin-top: -13%;
+	width: 40%;
 	float: right;
 	height: auto;
 	-webkit-clip-path: circle(50% at 50% 50%);
@@ -64,7 +64,7 @@ div.design h3 {
 }
 div.design img {
 	float: left;
-	width: 300px;
+	width: 25%;
 	height: auto;
 	margin-top: -9em;
 	margin-left: 80px;
