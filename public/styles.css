@@ -1,4 +1,4 @@
-body,h1,h2,h3 {
+body,h1,h2,h3,h4,h5,h6 {
 	margin: 0;
 	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
@@ -18,65 +18,83 @@ div.header_text {
 	font-size: 2em;
 }
 div.grey_div{
-	background: #FAFAFA;
-	width: 100%;
-	height: 25em;
-	vertical-align: top;
-}
-div.grey_div p{
-	margin-left: 25px;
-	margin-right: 60%;
-	font-size: 18px;
-	position: absolute;
-
-}
-div.design {
 	background: white;
 	width: 100%;
-	height: 25em;
-	vertical-align: top;
-}
-div.design h3 {
-	font-size: 30px;
-	padding-top: 7em;
-	margin: 0 25px  0 50%;
-}
-div.design img {
-	float: left;
-	width: 300px;
-	height: auto;
-
-	margin-top: -12em;
-	margin-left: 40px;
+	height: 390px;
+	text-align: center;
 
 }
-div.design p{
-	margin-left: 50%;
-	margin-right: 100px;
+div.grey_div p{
+	margin-left: 12%;
+	margin-right: 50%;
 	font-size: 18px;
-	float: right;
 	position: absolute;
 
 }
-.work_discription{
-	padding-top: 4em;
+div.grey_div h3{
+	padding-top: 5em;
 	font-size: 30px;
-	margin: 0 60%  0 25px;
+	margin: 0 40%  0 25px;
 }
-.portfolio_image {
+div.grey_div img{
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 	position: relative;
-	margin-top: -9em;
-	width: 600px;
+	margin-top: -11em;
+	width: 550px;
 	float: right;
 	height: auto;
 	-webkit-clip-path: circle(50% at 50% 50%);
 	clip-path: circle(50% at 50% 50%);
 }
-.portfolio_image:hover{
+div.grey img:hover{
 	opacity: .5;
 }
+div.design {
+	background: white;
+	width: 100%;
+	height: 360px;
+	vertical-align: top;
+	text-align: center;
+}
+div.design h3 {
+	font-size: 30px;
+	padding-top: 5em;
+	margin: 0 200px  0 40%;
+}
+div.design img {
+	float: left;
+	width: 300px;
+	height: auto;
+	margin-top: -9em;
+	margin-left: 80px;
+
+}
+div.design p{
+	margin-left: 40%;
+	margin-right: 200px;
+	font-size: 18px;
+	float: right;
+	position: absolute;
+}
+div.miami_cityscape {
+	background:url(miami_cityscape);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 400px;
+}
+div.Group1 {
+	background: url(Group1.png);
+	background-size:cover;
+	background-repeat: no-repeat;
+	height: 400px;
+}
+
+
+
+
+
+
 
 
 
